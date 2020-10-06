@@ -382,3 +382,84 @@ pwd
 git init
 git status
 echo "learning cs50" >> README.md
+git add .
+git commit -m "first commit"
+git config --global user.email "fxded@mail.ru"
+git config --global user.name "Vasiliy Votintseff"
+git commit -m "first commit"
+git branch -M main
+git status
+git remote add origin https://github.com/fxded/cs50.learning.git
+git push -u origin main
+cp pset1/mario.c hacker1/mario.c
+make mario
+pwd
+cd hacker1/
+pwd
+make mario
+make mario
+./mario 
+make mario
+./mario 
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+./mario 
+make mario
+./mario 
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+make mario
+./mario 
+./mario 
+make mario
+./mario 
+cd ..
+git status
+git add hacker1/mario.c
